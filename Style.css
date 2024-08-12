@@ -1,0 +1,97 @@
+
+body{
+    background-color: rgb(74, 74, 231);
+    color: white;
+    font-family: sans-serif;
+}
+img{
+    margin-left: 150px ;
+}
+h1{
+    margin-left: 220px;
+    margin-top: -45px;
+}
+.nav{
+    padding: 2px;
+   
+    position: fixed;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin-top: -70px;
+    position: fixed;
+    margin-left: 350px;
+}
+li {
+    float: left;
+  } 
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 25px 20px;
+}
+.icon{
+    position: absolute;
+    top: 2px; /* Adjust this value to move the icon vertically */
+    left: 500px; /* Adjust this value to move the icon horizontally */
+    height: 20px;
+    z-index: 100;
+    margin-top: 23px;
+    
+}
+.heading{
+ color: white;
+ margin-top: 203px;
+ font-size: 40px;
+ line-height: 1.3;
+ margin-left: 130px;
+margin-right: auto;
+}
+.paragraph{
+    margin-left: 11.5%;
+    position: fixed;
+    line-height: 1.3;
+}
+.button{
+    background-color: white;
+    color: blue;
+    border-style: none;
+    margin-top: 114px;
+    position: fixed;
+    margin-left: 150px;
+    width: 7%;
+    height: 53px;
+    border-radius: 6px;
+
+}
+.button:hover{
+    background-color: blue;
+    border: 4px solid white;
+    color: white;
+}
+.icon2{
+    position: fixed;
+    margin-left: 300px;
+    margin-top: 117px;
+    height: 43px;
+    width: 3%;
+}
+.para{
+    margin-left: 350px;
+    margin-top: 160px;
+}
+.image{
+    margin-left: 700px;
+    height: 430px;
+    width: 30%;
+    margin-top: -355px;
+    position: fixed;
+    border-radius: 9px;
+    
+}
+.image:hover{
+    opacity: 0.5;
+    
+}
